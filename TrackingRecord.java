@@ -72,7 +72,6 @@ public class TrackingRecord
     public void display()
 	{
         //Show all the tracking record information
-		System.out.printf("\nHealth status     :%s\n",healthStatus);
 		System.out.printf("Temperature       :%.1f\n",temperature);
 		System.out.printf("Date              :"+date+"\n");
         shop.display();
@@ -82,7 +81,6 @@ public class TrackingRecord
     public void officerDisplay()
     {
         citizen.officerDisplay();
-        System.out.printf("Health status     :%s\n",healthStatus);
 		System.out.printf("Temperature       :%.1f\n",temperature);
 		System.out.printf("Date visit        :"+date+"\n");
         

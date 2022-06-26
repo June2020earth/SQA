@@ -188,7 +188,6 @@ public static void main(String [] args)
                     else 
                     userLoop=false;
                 }
-                citizen.display();
                 break;
 
 
@@ -258,7 +257,7 @@ public static void main(String [] args)
     }
     catch(NumberFormatException ex)
     {
-        System.out.printf(ex.getMessage());loo
+        System.out.printf(ex.getMessage());
     }
     }
 
